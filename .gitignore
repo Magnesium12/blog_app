@@ -1,0 +1,37 @@
+# Virtual environment folders
+.env
+env
+
+# git repo in frontend
+.git/
+
+# deps
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Data
+db.sqlite3
+
+# Temporary files
+.data
+.log
+__pycache__/
+*.pyc
